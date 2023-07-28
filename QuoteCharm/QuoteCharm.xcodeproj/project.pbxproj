@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B86E98272A73CF0000E65B9F /* QuoteCharm Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B86E98262A73CF0000E65B9F /* QuoteCharm Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B86E982C2A73CF0000E65B9F /* QuoteCharmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E982B2A73CF0000E65B9F /* QuoteCharmApp.swift */; };
+		B86E982E2A73CF0000E65B9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E982D2A73CF0000E65B9F /* ContentView.swift */; };
+		B86E98302A73CF0100E65B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86E982F2A73CF0100E65B9F /* Assets.xcassets */; };
+		B86E98332A73CF0100E65B9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86E98322A73CF0100E65B9F /* Preview Assets.xcassets */; };
+		B86E983F2A73CF4E00E65B9F /* AbrilFatface-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B86E983E2A73CF4E00E65B9F /* AbrilFatface-Regular.ttf */; };
+		B86E98402A73CF4E00E65B9F /* AbrilFatface-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B86E983E2A73CF4E00E65B9F /* AbrilFatface-Regular.ttf */; };
+		B86E98422A73CF5D00E65B9F /* DMSerifDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B86E98412A73CF5D00E65B9F /* DMSerifDisplay-Regular.ttf */; };
+		B86E98432A73CF5D00E65B9F /* DMSerifDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B86E98412A73CF5D00E65B9F /* DMSerifDisplay-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B86E98282A73CF0000E65B9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86E981A2A73CF0000E65B9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86E98252A73CF0000E65B9F;
+			remoteInfo = "QuoteCharm Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B86E98392A73CF0100E65B9F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B86E98272A73CF0000E65B9F /* QuoteCharm Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B86E98202A73CF0000E65B9F /* QuoteCharm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteCharm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86E98262A73CF0000E65B9F /* QuoteCharm Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuoteCharm Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86E982B2A73CF0000E65B9F /* QuoteCharmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCharmApp.swift; sourceTree = "<group>"; };
+		B86E982D2A73CF0000E65B9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B86E982F2A73CF0100E65B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B86E98322A73CF0100E65B9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B86E983D2A73CF3900E65B9F /* QuoteCharm-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "QuoteCharm-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B86E983E2A73CF4E00E65B9F /* AbrilFatface-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbrilFatface-Regular.ttf"; sourceTree = "<group>"; };
+		B86E98412A73CF5D00E65B9F /* DMSerifDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSerifDisplay-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B86E98232A73CF0000E65B9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B86E98192A73CF0000E65B9F = {
+			isa = PBXGroup;
+			children = (
+				B86E982A2A73CF0000E65B9F /* QuoteCharm Watch App */,
+				B86E98212A73CF0000E65B9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B86E98212A73CF0000E65B9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B86E98202A73CF0000E65B9F /* QuoteCharm.app */,
+				B86E98262A73CF0000E65B9F /* QuoteCharm Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B86E982A2A73CF0000E65B9F /* QuoteCharm Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B86E983D2A73CF3900E65B9F /* QuoteCharm-Watch-App-Info.plist */,
+				B86E982B2A73CF0000E65B9F /* QuoteCharmApp.swift */,
+				B86E982D2A73CF0000E65B9F /* ContentView.swift */,
+				B86E982F2A73CF0100E65B9F /* Assets.xcassets */,
+				B86E98442A73CFBD00E65B9F /* Fonts */,
+				B86E98312A73CF0100E65B9F /* Preview Content */,
+			);
+			path = "QuoteCharm Watch App";
+			sourceTree = "<group>";
+		};
+		B86E98312A73CF0100E65B9F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B86E98322A73CF0100E65B9F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B86E98442A73CFBD00E65B9F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B86E983E2A73CF4E00E65B9F /* AbrilFatface-Regular.ttf */,
+				B86E98412A73CF5D00E65B9F /* DMSerifDisplay-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B86E981F2A73CF0000E65B9F /* QuoteCharm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86E983A2A73CF0100E65B9F /* Build configuration list for PBXNativeTarget "QuoteCharm" */;
+			buildPhases = (
+				B86E981E2A73CF0000E65B9F /* Resources */,
+				B86E98392A73CF0100E65B9F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B86E98292A73CF0000E65B9F /* PBXTargetDependency */,
+			);
+			name = QuoteCharm;
+			productName = QuoteCharm;
+			productReference = B86E98202A73CF0000E65B9F /* QuoteCharm.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		B86E98252A73CF0000E65B9F /* QuoteCharm Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86E98362A73CF0100E65B9F /* Build configuration list for PBXNativeTarget "QuoteCharm Watch App" */;
+			buildPhases = (
+				B86E98222A73CF0000E65B9F /* Sources */,
+				B86E98232A73CF0000E65B9F /* Frameworks */,
+				B86E98242A73CF0000E65B9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuoteCharm Watch App";
+			productName = "QuoteCharm Watch App";
+			productReference = B86E98262A73CF0000E65B9F /* QuoteCharm Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B86E981A2A73CF0000E65B9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B86E981F2A73CF0000E65B9F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B86E98252A73CF0000E65B9F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B86E981D2A73CF0000E65B9F /* Build configuration list for PBXProject "QuoteCharm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B86E98192A73CF0000E65B9F;
+			productRefGroup = B86E98212A73CF0000E65B9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B86E981F2A73CF0000E65B9F /* QuoteCharm */,
+				B86E98252A73CF0000E65B9F /* QuoteCharm Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B86E981E2A73CF0000E65B9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86E983F2A73CF4E00E65B9F /* AbrilFatface-Regular.ttf in Resources */,
+				B86E98422A73CF5D00E65B9F /* DMSerifDisplay-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86E98242A73CF0000E65B9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86E98402A73CF4E00E65B9F /* AbrilFatface-Regular.ttf in Resources */,
+				B86E98432A73CF5D00E65B9F /* DMSerifDisplay-Regular.ttf in Resources */,
+				B86E98332A73CF0100E65B9F /* Preview Assets.xcassets in Resources */,
+				B86E98302A73CF0100E65B9F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B86E98222A73CF0000E65B9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86E982E2A73CF0000E65B9F /* ContentView.swift in Sources */,
+				B86E982C2A73CF0000E65B9F /* QuoteCharmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B86E98292A73CF0000E65B9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86E98252A73CF0000E65B9F /* QuoteCharm Watch App */;
+			targetProxy = B86E98282A73CF0000E65B9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B86E98342A73CF0100E65B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B86E98352A73CF0100E65B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B86E98372A73CF0100E65B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuoteCharm Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QuoteCharm-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = QuoteCharm;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AK.QuoteCharm.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		B86E98382A73CF0100E65B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuoteCharm Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QuoteCharm-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = QuoteCharm;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AK.QuoteCharm.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		B86E983B2A73CF0100E65B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = QuoteCharm;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AK.QuoteCharm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B86E983C2A73CF0100E65B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = QuoteCharm;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AK.QuoteCharm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B86E981D2A73CF0000E65B9F /* Build configuration list for PBXProject "QuoteCharm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86E98342A73CF0100E65B9F /* Debug */,
+				B86E98352A73CF0100E65B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86E98362A73CF0100E65B9F /* Build configuration list for PBXNativeTarget "QuoteCharm Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86E98372A73CF0100E65B9F /* Debug */,
+				B86E98382A73CF0100E65B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86E983A2A73CF0100E65B9F /* Build configuration list for PBXNativeTarget "QuoteCharm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86E983B2A73CF0100E65B9F /* Debug */,
+				B86E983C2A73CF0100E65B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B86E981A2A73CF0000E65B9F /* Project object */;
+}
